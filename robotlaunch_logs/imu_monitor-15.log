@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2015-11-26 12:33:48,881: init_node, name[/imu_monitor], pid[12974]
+[xmlrpc][INFO] 2015-11-26 12:33:48,881: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-11-26 12:33:48,882: Started XML-RPC server [http://c1:35466/]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:48,882: _ready: http://c1:35466/
+[xmlrpc][INFO] 2015-11-26 12:33:48,882: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2015-11-26 12:33:48,883: Registering with master node http://c1:11311
+[rospy.init][INFO] 2015-11-26 12:33:48,885: ROS Slave URI: [http://c1:35466/]
+[rospy.init][INFO] 2015-11-26 12:33:48,885: registered with master
+[rospy.rosout][INFO] 2015-11-26 12:33:48,885: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-11-26 12:33:49,108: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-11-26 12:33:49,122: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-11-26 12:33:50,894: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2015-11-26 12:33:54,016: topic[/torso_lift_imu/data] adding connection to [http://c1:45907/], count 0
+[rospy.core][INFO] 2015-11-26 12:33:57,581: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2015-11-26 12:33:57,584: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2015-11-26 12:33:57,584: topic[/torso_lift_imu/data] removing connection to http://c1:45907/
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:57,585: signal-2
+[rospy.core][INFO] 2015-11-26 12:33:57,692: signal_shutdown [atexit]

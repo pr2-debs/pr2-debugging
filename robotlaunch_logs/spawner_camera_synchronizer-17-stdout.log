@@ -1,0 +1,6 @@
+[INFO] [WallTime: 1448562837.210464] Trying to unload head_camera_trigger
+[INFO] [WallTime: 1448562837.259061] Succeeded in unloading head_camera_trigger
+[INFO] [WallTime: 1448562837.259332] Trying to unload projector_controller
+[INFO] [WallTime: 1448562837.304980] Succeeded in unloading projector_controller
+[INFO] [WallTime: 1448562837.305263] Trying to unload projector_trigger
+[INFO] [WallTime: 1448562837.346554] Succeeded in unloading projector_trigger

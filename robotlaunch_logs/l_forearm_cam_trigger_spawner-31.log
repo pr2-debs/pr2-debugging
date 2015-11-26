@@ -1,0 +1,14 @@
+[rospy.client][INFO] 2015-11-26 12:33:49,047: init_node, name[/l_forearm_cam_trigger_spawner], pid[13002]
+[xmlrpc][INFO] 2015-11-26 12:33:49,047: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-11-26 12:33:49,047: Started XML-RPC server [http://c1:53225/]
+[rospy.init][INFO] 2015-11-26 12:33:49,047: ROS Slave URI: [http://c1:53225/]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:49,047: _ready: http://c1:53225/
+[rospy.registration][INFO] 2015-11-26 12:33:49,048: Registering with master node http://c1:11311
+[xmlrpc][INFO] 2015-11-26 12:33:49,048: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-11-26 12:33:49,148: registered with master
+[rospy.rosout][INFO] 2015-11-26 12:33:49,148: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-11-26 12:33:50,333: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-11-26 12:33:50,607: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2015-11-26 12:33:51,473: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:51,613: signal-2
+[rospy.core][INFO] 2015-11-26 12:33:52,428: signal_shutdown [atexit]

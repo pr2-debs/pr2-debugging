@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2015-11-26 12:33:49,080: init_node, name[/realtime_hd_monitor], pid[13013]
+[xmlrpc][INFO] 2015-11-26 12:33:49,080: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-11-26 12:33:49,081: Started XML-RPC server [http://c1:52496/]
+[rospy.init][INFO] 2015-11-26 12:33:49,081: ROS Slave URI: [http://c1:52496/]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:49,081: _ready: http://c1:52496/
+[rospy.registration][INFO] 2015-11-26 12:33:49,082: Registering with master node http://c1:11311
+[xmlrpc][INFO] 2015-11-26 12:33:49,082: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-11-26 12:33:49,181: registered with master
+[rospy.rosout][INFO] 2015-11-26 12:33:49,181: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-11-26 12:33:49,357: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-11-26 12:33:49,365: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2015-11-26 12:33:49,680: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/pr2_computer_monitor/hd_monitor.py", line 77, in get_hddtemp_data
+    hd_sock.connect((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.core][INFO] 2015-11-26 12:33:50,672: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:50,898: signal-2
+[rospy.core][INFO] 2015-11-26 12:33:51,346: signal_shutdown [atexit]

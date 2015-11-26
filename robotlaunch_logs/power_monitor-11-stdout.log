@@ -1,0 +1,4 @@
+[0m[ INFO] [1448562833.576577302]: Using log file: /var/ros/power_monitor/power.log[0m
+[0m[ INFO] [1448562833.576636016]: Read 0 observations[0m
+[0m[ INFO] [1448562833.576651844]: Power state estimator set to fuel gauge[0m
+[0m[ INFO] [1448562833.630098287]: Power state estimator changed from fuel gauge to advanced[0m

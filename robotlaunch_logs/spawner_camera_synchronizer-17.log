@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2015-11-26 12:33:48,919: init_node, name[/spawner_camera_synchronizer], pid[12976]
+[xmlrpc][INFO] 2015-11-26 12:33:48,919: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-11-26 12:33:48,920: Started XML-RPC server [http://c1:55906/]
+[rospy.init][INFO] 2015-11-26 12:33:48,920: ROS Slave URI: [http://c1:55906/]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:48,920: _ready: http://c1:55906/
+[rospy.registration][INFO] 2015-11-26 12:33:48,921: Registering with master node http://c1:11311
+[xmlrpc][INFO] 2015-11-26 12:33:48,921: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-11-26 12:33:49,021: registered with master
+[rospy.rosout][INFO] 2015-11-26 12:33:49,021: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-11-26 12:33:50,117: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-11-26 12:33:50,321: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-11-26 12:33:55,483: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2015-11-26 12:33:57,182: signal_shutdown [signal-2]
+[rosout][INFO] 2015-11-26 12:33:57,210: Trying to unload head_camera_trigger
+[rosout][INFO] 2015-11-26 12:33:57,259: Succeeded in unloading head_camera_trigger
+[rosout][INFO] 2015-11-26 12:33:57,259: Trying to unload projector_controller
+[rosout][INFO] 2015-11-26 12:33:57,304: Succeeded in unloading projector_controller
+[rosout][INFO] 2015-11-26 12:33:57,305: Trying to unload projector_trigger
+[rosout][INFO] 2015-11-26 12:33:57,346: Succeeded in unloading projector_trigger
+[rospy.internal][INFO] 2015-11-26 12:33:57,348: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:57,348: signal-2
+[rospy.internal][ERROR] 2015-11-26 12:33:57,512: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rospy.core][INFO] 2015-11-26 12:33:57,513: signal_shutdown [atexit]

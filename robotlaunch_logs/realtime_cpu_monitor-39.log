@@ -1,0 +1,14 @@
+[rospy.client][INFO] 2015-11-26 12:33:49,081: init_node, name[/realtime_cpu_monitor], pid[13018]
+[xmlrpc][INFO] 2015-11-26 12:33:49,082: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-11-26 12:33:49,082: Started XML-RPC server [http://c1:33373/]
+[rospy.init][INFO] 2015-11-26 12:33:49,082: ROS Slave URI: [http://c1:33373/]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:49,082: _ready: http://c1:33373/
+[rospy.registration][INFO] 2015-11-26 12:33:49,083: Registering with master node http://c1:11311
+[xmlrpc][INFO] 2015-11-26 12:33:49,083: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-11-26 12:33:49,182: registered with master
+[rospy.rosout][INFO] 2015-11-26 12:33:49,183: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-11-26 12:33:49,359: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-11-26 12:33:49,366: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2015-11-26 12:33:50,571: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2015-11-26 12:33:51,617: signal-2
+[rospy.core][INFO] 2015-11-26 12:33:52,235: signal_shutdown [atexit]
